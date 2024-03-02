@@ -1,0 +1,22 @@
+.searchWrapper {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.voiceSearch {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 3px;
+}
+
+.langSelectionDropdown {
+    margin-top: 10px;
+    display: none;
+}
+
+.translatedOutput {
+    margin-top: 10px;
+}

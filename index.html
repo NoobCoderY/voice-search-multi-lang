@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Search</title>
+    <link href="./index.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="searchWrapper">
+        <input class="searchInputEl" type="text"/>
+        <img class="voiceSearch" src="./assets/mic.png" alt="Voice Search"/>
+    </div>
+    <select class="langSelectionDropdown">
+        <option value="">None</option>
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="ta">Tamil</option>
+        <option value="zh-CN">Chinese</option>
+        <option value="ja">Japanese</option>
+    </select>
+    <div class="translatedOutput"></div>
+</body>
+<script src="./constants/conf.js"></script>
+<script src="./voicesearch.js"></script>
+</html>
